@@ -1,0 +1,12 @@
+    1  git clone https://github.com/jdrezewska/test_docker_jpai.git
+    7  docker build -t kolokwium:latest
+    8  docker run -t kolokwium:latest
+    9  docker run --help
+   10  docker build -t kolokwium:latest
+   11  docker build -t kolokwium:latest .
+   12  docker run -d -p 3000:3000 --name kontener kolokwium:latest
+   14  docker rm -f kontener
+   15  docker remove -f kolokwium:latest
+   16  docker rmi -f kolokwium:latest
+   17  docker.log (history | grep docker | tee docker.log)
+   18  touch docker.log
